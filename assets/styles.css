@@ -266,11 +266,11 @@ section {
 }
 
 .timeline__item_key:before {
-  background: var(--color-primary);
+  background: #0060a0;
 }
 
 .timeline__item_key:after {
-  border-color: var(--color-primary);
+  border-color: #0060a0;
 }
 
 .timeline-item__period {
@@ -281,6 +281,10 @@ section {
   margin: 0.4em 0;
   font-size: 1.2rem;
   line-height: 1.4em;
+  font-weight: 700;
+}
+
+.timeline-item__subtitle {
   font-weight: 700;
 }
 
